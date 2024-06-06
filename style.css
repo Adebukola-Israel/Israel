@@ -25,13 +25,7 @@ body {
  height: 100vh;
 }
 
-.sticky {
- background-color: #212741fb;
- position: fixed;
- top: 0;
- width: 100%;
- transition: .3s all ease-in-out;
-}
+
 
 nav {
  display: flex;
@@ -507,6 +501,7 @@ footer a:hover {
 
  .container-3 .buttons {
   margin-top: 30px;
+
  }
 
  .box {
@@ -588,14 +583,20 @@ footer a:hover {
 }
 
 @media (max-width: 510px) {
+
+ nav {
+   background: #13141592;
+  padding: 10px 20px;
+  
+  }
+  .header{
+   margin-top: 10px;
+  }
  .pre-foot .dis-2 {
   display: none;
  }
 
- .prefoot img {
-  /* display: block; */
-  /* margin: auto; */
- }
+
  .header-text{
   margin: 0;
  }
@@ -607,7 +608,29 @@ footer a:hover {
   padding: 0 0 0 40px;
 
  }
+ .container-3{
+  padding: 30px 15px ;
+ }
+ .container-3 h1{
+  font-size: 30px;
+ }
 
+    .container-3 .buttons {
+     display: flex;
+     margin-top: 10px;
+     /* flex-direction: column; */
+     align-items: center;
+     justify-content: space-around;
+     padding: 0 60px;
+    }
+  
+    .container-3 a.btn {
+     font-size: 14px;
+     padding:15px 12px;
+    }
+/* .container-3{
+   padding: 50px ;
+} */
  .grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -616,7 +639,8 @@ footer a:hover {
 
  .box {
   display: block;
-  padding: 10px;
+  padding: 15px;
+  width:100%
  }
 
 }
