@@ -21,6 +21,7 @@ body {
 .container-1 {
  background: url(/Image/1-colorful-sweets-with-copy-space.jpg);
  /* padding: 30px 100px 50px; */
+ background-size:cover;
  height: 100vh;
 }
 
@@ -145,6 +146,7 @@ nav a {
 
 .header {
  display: flex;
+ /* margin-top: 30px; */
  padding: 0 0 0 80px;
  color: white;
  justify-content: space-between;
@@ -154,7 +156,6 @@ nav a {
 .header img {
  transform: scaleX(-1);
  /* margin-top: 0px; */
- display: none;
 }
 
 .header-text {
@@ -439,14 +440,17 @@ footer a:hover {
 
  .container-1 {
   /* width: 100vw; */
-  padding: 20px 0 50px;
+  padding:0 0 50px;
  }
 
  .header {
-  padding: 0 60px;
+  padding: 0 60px 0 40px;
 
  }
-
+.header-text{
+ width: 100%;
+ margin-top: 20px;
+}
  .header-text p {
   width: 89%;
  }
@@ -460,7 +464,7 @@ footer a:hover {
  }
 
  .header-text h1 {
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 20px;
  }
 
@@ -592,13 +596,15 @@ footer a:hover {
   /* display: block; */
   /* margin: auto; */
  }
-
+ .header-text{
+  margin: 0;
+ }
  .header-text h1 {
   font-size: 40px;
  }
 
  .header {
-  padding: 0 40px;
+  padding: 0 0 0 40px;
 
  }
 
