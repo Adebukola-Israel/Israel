@@ -19,7 +19,7 @@ body {
 }
 
 .container-1 {
- background: url(/Image/slide-01.jpg);
+ background: url(/Image/1-colorful-sweets-with-copy-space.jpg);
  /* padding: 30px 100px 50px; */
  height: 100vh;
 }
@@ -145,7 +145,7 @@ nav a {
 
 .header {
  display: flex;
- padding: 0 100px;
+ padding: 0 0 0 80px;
  color: white;
  justify-content: space-between;
 
@@ -153,10 +153,13 @@ nav a {
 
 .header img {
  transform: scaleX(-1);
+ /* margin-top: 0px; */
+ display: none;
 }
 
 .header-text {
- margin: auto;
+ margin: auto 0 ;
+ width: 50%;
 }
 
 .header-text h1 {
