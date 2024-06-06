@@ -369,7 +369,7 @@ textarea {
 .pre-foot img{
  width: 150px;
  padding: 0 10px;
- margin-right: 30px;
+ margin-right: 60px;
 }
 
 
@@ -582,7 +582,16 @@ footer a:hover {
   display: flex;
   justify-content: center;
  }
+.pre-foot {
+   justify-content: space-around;
+   align-items: center;
+}
 
+.pre-foot img {
+   width: 130px;
+   padding: 0 10px;
+   margin: 0;
+}
 
 
  .pre-foot .dis {
