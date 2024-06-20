@@ -281,6 +281,9 @@ nav a {
  .about-seg h4 {
     margin-top: 10px;
  }
+ .about-seg small{
+   color: rgb(126, 30, 30);
+ }
 
 .container-3 {
  display: flex;
@@ -575,7 +578,7 @@ display: none;
 
 
   .container-2 h3{
-   font-size: 16px;
+   font-size: 14px;
   }
 
  .about-seg {
@@ -588,17 +591,18 @@ display: none;
  }
 
  .about-seg img {
-  display: none;
-  width: 220px;
-  margin-bottom: -40px;
+  /* display: none; */
+  width: 120px;
+  margin-top: 10px;
  }
 .container-2 h1{
    font-size: 20px;
 }
 .container-2 h3{
-   font-size: 14px;
+   font-size: 12px;
+   width: 56%;
    font-weight: 300;
-   margin-top: -20px;
+   margin: -15px auto 0;
 }
  .about-seg p {
   font-size: 15px;
@@ -751,7 +755,7 @@ display: none;
   padding: 30px 5px ;
  }
  .container-3 h1{
-  font-size: 30px;
+  font-size: 25px;
  }
 
     .container-3 .unlock-buttons {
