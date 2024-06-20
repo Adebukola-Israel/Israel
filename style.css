@@ -283,6 +283,7 @@ nav a {
  }
  .about-seg small{
    color: rgb(126, 30, 30);
+   font-size: 12px;
  }
 
 .container-3 {
@@ -592,7 +593,7 @@ display: none;
 
  .about-seg img {
   /* display: none; */
-  width: 120px;
+  width: 150px;
   margin-top: 10px;
  }
 .container-2 h1{
@@ -600,9 +601,9 @@ display: none;
 }
 .container-2 h3{
    font-size: 12px;
-   width: 56%;
+   width: 60%;
    font-weight: 300;
-   margin: -15px auto 0;
+   margin: -25px auto 0;
 }
  .about-seg p {
   font-size: 15px;
