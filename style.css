@@ -753,14 +753,15 @@ display: none;
      /* flex-direction: column; */
      align-items: center;
      text-align: center;
-     justify-content: center;
+     justify-content: space-around;
      padding: 0 ;
     }
   
     .container-3 a.btn {
      font-size: 10px;
      padding:8px;
-     margin-right: 10px;
+     width: 90px;
+     /* margin-right: 10px; */
      
     }
 /* .container-3{
