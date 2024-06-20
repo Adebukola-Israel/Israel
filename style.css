@@ -730,7 +730,7 @@ display: none;
 
 
  .to-top.active {
-    bottom: 50px;
+    bottom: 70px;
     pointer-events: auto;
     opacity: 1;
  }
