@@ -603,7 +603,7 @@ display: none;
    font-size: 12px;
    width: 60%;
    font-weight: 300;
-   margin: -20px auto 0;
+   margin: -22px auto 0;
 }
  .about-seg p {
   font-size: 15px;
@@ -793,6 +793,6 @@ display: none;
 footer {
 
  padding: 20px;
- font-size: 11px;
+ font-size: 8px;
 }
 }
