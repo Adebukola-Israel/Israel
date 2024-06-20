@@ -543,7 +543,7 @@ footer a:hover {
  margin-top: 20px;
 }
  .header-text p {
-  width: 89%;
+  width: 90%;
  }
 
  .header img {
@@ -554,7 +554,7 @@ footer a:hover {
 display: none;
 }
  .container-1 h1 {
-  width: 80%;
+  width: 90%;
  }
 
  .header-text h1 {
@@ -590,12 +590,21 @@ display: none;
   width: 220px;
   margin-bottom: -40px;
  }
-
+.container-2 h1{
+   font-size: 20px;
+}
+.container-2 h3{
+   font-size: 14px;
+   font-weight: 300;
+   margin-top: -20px;
+}
  .about-seg p {
-  font-size: 17px;
-  width: 90%;
+  font-size: 15px;
+  width: 100%;
  }
-
+.text-dis{
+   display: none;
+}
 
  .container-3 {
   display: block;
@@ -703,7 +712,7 @@ display: none;
 @media (max-width: 510px) {
 
  nav {
-   background: #13141592;
+   background: #0e132c47;
   padding: 10px 20px;
   }
   nav img{
@@ -717,6 +726,7 @@ display: none;
  }
 .container-1{
    background-position-x: -250px;
+   height: 90vh;
 }
 
  .header-text{
@@ -727,11 +737,11 @@ display: none;
  }
 
  .header {
-  padding: 0 0 0 40px;
+  padding: 0 0 0 20px;
 
  }
  .container-3{
-  padding: 30px 15px ;
+  padding: 30px 5px ;
  }
  .container-3 h1{
   font-size: 30px;
@@ -748,8 +758,8 @@ display: none;
     }
   
     .container-3 a.btn {
-     font-size: 14px;
-     padding:15px 12px;
+     font-size: 12px;
+     padding:10px;
     }
 /* .container-3{
    padding: 50px ;
