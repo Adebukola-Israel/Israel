@@ -96,7 +96,7 @@ nav img{
 }
 
 .buttons a {
- padding: 10px 15px;
+ padding:15px 20px;
  color: white;
  text-decoration: none;
  border-radius: 5px;
@@ -568,6 +568,9 @@ display: none;
   margin: 40px 0;
   font-size: 18px;
  }
+ .header-text .buttons{
+   margin-top: 30px;
+ }
 
 
 
@@ -752,13 +755,13 @@ display: none;
  }
 
     .container-3 .unlock-buttons {
-     margin-top: 10px;
+     margin-top: 30px;
      text-align: center;
      padding: 0;
     }
   
     .container-3 .unlock-buttons a.btn {
-     padding:8px;
+     padding:10px;
      font-size: 10px;
      /* margin-right: 10px; */
      
