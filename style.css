@@ -295,11 +295,13 @@ nav a {
  font-size: 40px;
  text-align: center;
 }
-
-.container-3 a.btn {
- padding: 15px 20px;
- /* font-size: 17px; */
+.unlock-buttons a{
+   color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      padding: 15px 20px;
 }
+
 
 .container-4 {
  margin: 20px;
@@ -615,10 +617,10 @@ display: none;
   padding: 50px 50px;
  }
 
- .container-3 .buttons {
+ .container-3 .unlock-buttons {
   margin-top: 30px;
  }
- .container-3 .buttons a.btn{
+ .container-3 .unlock-buttons a.btn{
    font-size: 12px;
  }
 
@@ -749,19 +751,15 @@ display: none;
   font-size: 30px;
  }
 
-    .container-3 .buttons {
-     /* display: flex; */
+    .container-3 .unlock-buttons {
      margin-top: 10px;
-     /* flex-direction: column; */
-     /* align-items: center; */
      text-align: center;
-     /* justify-content: space-around; */
      padding: 0;
-     /* width: 80%; */
     }
   
-    .container-3 a.btn {
+    .container-3 .unlock-buttons a.btn {
      padding:8px;
+     font-size: 12px;
      /* margin-right: 10px; */
      
     }
