@@ -617,7 +617,9 @@ display: none;
 
  .container-3 .buttons {
   margin-top: 30px;
-
+ }
+ .container-3 a.btn{
+   font-size: 14px;
  }
 
  .box {
@@ -759,7 +761,6 @@ display: none;
     }
   
     .container-3 a.btn {
-     font-size: 12px;
      padding:8px;
      /* margin-right: 10px; */
      
