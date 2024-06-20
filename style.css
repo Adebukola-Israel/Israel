@@ -726,7 +726,7 @@ display: none;
  }
 .container-1{
    background-position-x: -250px;
-   height: 90vh;
+   height: 100vh;
 }
 
  .header-text{
@@ -753,7 +753,7 @@ display: none;
      /* flex-direction: column; */
      align-items: center;
      text-align: center;
-     justify-content: center;
+     justify-content: space-around;
      padding: 0 ;
     }
   
